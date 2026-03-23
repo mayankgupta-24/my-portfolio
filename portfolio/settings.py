@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-la2v3!*6eb&+&3%maau6$(&hff-v0gr8pch+swy@2$az(=93&o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mayankgupta.pythonanywhere.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['mayankgupta.pythonanywhere.com']
 
 
 # Application definition
@@ -125,7 +125,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [ BASE_DIR / 'static' ]
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-STATICFILES_STORAGE = 'whitenoise.storage.CompresseMainfestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Media files
 
