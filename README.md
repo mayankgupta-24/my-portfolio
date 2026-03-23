@@ -42,7 +42,7 @@ cd my-portfolio
 
 Initialize Virtual Environment:
 Bash
-python -m venv env
+python -m venv env <br>
 Windows: env\Scripts\activate | Mac/Linux: source env/bin/activate
 
 Install Dependencies:
@@ -50,8 +50,8 @@ Bash
 pip install -r requirements.txt
 
 Code snippet
-DEBUG = True
-SECRET_KEY = your-local-dev-key
+DEBUG = True <br>
+SECRET_KEY = your-local-dev-key <br>
 Database Setup: Default
 
 Bash
