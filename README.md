@@ -1,5 +1,5 @@
 🚀 Backend Engineer Portfolio | Mayank Gupta
-A clean, high-performance personal portfolio focused on backend architecture. Built with Django 5.x and Bootstrap 5, this project prioritizes speed, security, and a professional recruiter-friendly interface.
+A clean, high-performance personal portfolio focused on backend architecture. Built with Django 4.2 and Bootstrap 5, this project prioritizes speed, security, and a professional recruiter-friendly interface.(use ai for frontend development)
 
 🔗 Live Link
 View the portfolio here: https://mayankgupta.pythonanywhere.com
