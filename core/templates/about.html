@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}About – Mayank Gupta{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h1 class="mb-4">About Me</h1>
+            <p class="lead mb-4">
+                Backend-focused developer specializing in <strong>Django</strong> and <strong>Django REST Framework</strong>.
+            </p>
+
+            <p>
+                I enjoy turning complex business requirements into clean, maintainable, and performant APIs.
+                My focus areas include authentication flows (JWT/OAuth), permissions, background tasks, testing coverage, API documentation and database design.
+            </p>
+
+            <h4 class="mt-5">What I'm currently improving</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Real-time features with Django Channels</li>
+                <li class="list-group-item">Advanced query optimization & caching</li>
+                <li class="list-group-item">Docker + deployment best practices</li>
+            </ul>
+
+            <div class="mt-5">
+                <a href="https://github.com/mayankgupta-24" class="btn btn-outline-dark me-2" target="_blank">
+                    GitHub
+                </a>
+                <a href="https://in.linkedin.com/in/mayank-gupta-4259a8240" class="btn btn-outline-primary" target="_blank">
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

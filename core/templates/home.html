@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Mayank Gupta – Backend Engineer{% endblock %}
+
+{% block content %}
+
+<!-- Hero -->
+<section class="bg-dark text-white py-5 py-lg-7">
+  <div class="container">
+    <div class="row align-items-center g-5 justify-content-center justify-content-lg-around">
+
+      <!-- Photo column – centered on small, slight right shift on large -->
+      <div class="col-lg-4 text-center text-lg-start order-lg-1 order-2">
+        <div class="ratio ratio-1x1 rounded-circle overflow-hidden border border-4 border-primary shadow-lg mx-auto mx-lg-0"
+             style="max-width: 280px;">
+          <img src="{% static 'images/picture.jpg' %}" 
+               alt="Mayank Gupta" 
+               class="object-fit-cover">
+        </div>
+      </div>
+
+      <!-- Text column – pulled a little left on large screens -->
+      <div class="col-lg-7 order-lg-2 order-1 me-lg-3">
+        <h1 class="display-4 fw-bold mb-3">
+          Mayank Gupta
+        </h1>
+
+        <h2 class="h3 fw-light text-secondary mb-4">
+          Backend Engineer • Django • Django REST Framework
+        </h2>
+
+        <p class="lead fs-5 mb-4 text-white-75">
+          Focused on building secure, scalable, and maintainable backend systems.<br>
+          Clean API design • JWT/OAuth • permissions • Celery • pytest • PostgreSQL • Docker basics.
+        </p>
+
+        <div class="d-flex flex-wrap gap-3 mb-5">
+          <a href="{% url 'project_list' %}" class="btn btn-primary btn-lg px-5">
+            View Projects
+          </a>
+          <a href="{% url 'about' %}" class="btn btn-outline-light btn-lg px-5">
+            About & Skills
+          </a>
+        </div>
+
+        <!-- Skill badges -->
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-primary fs-6 px-4 py-2">Django</span>
+          <span class="badge bg-info fs-6 px-4 py-2">DRF</span>
+          <span class="badge bg-success fs-6 px-4 py-2">PostgreSQL</span>
+          <span class="badge bg-danger fs-6 px-4 py-2">pytest</span>
+          <span class="badge bg-warning text-dark fs-6 px-4 py-2">Celery</span>
+          <span class="badge bg-secondary fs-6 px-4 py-2">JWT Auth</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{% endblock %}
