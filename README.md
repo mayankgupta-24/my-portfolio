@@ -37,21 +37,21 @@ Security: Environment variables for SECRET_KEY and DEBUG states.
 Clone the Repository:
 
 Bash
-git clone https://github.com/mayankgupta-24/my-portfolio.git
+git clone https://github.com/mayankgupta-24/my-portfolio.git <br>
 cd my-portfolio
-Initialize Virtual Environment:
 
+Initialize Virtual Environment:
 Bash
 python -m venv env
-# Windows: env\Scripts\activate | Mac/Linux: source env/bin/activate
+Windows: env\Scripts\activate | Mac/Linux: source env/bin/activate
 
 Install Dependencies:
 Bash
 pip install -r requirements.txt
 
 Code snippet
-DEBUG=True
-SECRET_KEY=your-local-dev-key
+DEBUG = True
+SECRET_KEY = your-local-dev-key
 Database Setup: Default
 
 Bash
@@ -60,7 +60,7 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 
-📁 Project Highlights
+📁 Project Highlights <br>
 Auto-play Video Demos: Projects feature muted, looping video previews with image posters to prevent layout shift during loading.
 
 Skill Badges: Categorized backend skills with hover-lift effects for better interactivity.
